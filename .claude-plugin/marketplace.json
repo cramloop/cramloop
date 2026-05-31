@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
-  "name": "lorky",
+  "name": "cramloop",
   "description": "Coursework-based tutoring plugins for math and history revision.",
   "version": "1.0.0",
   "owner": {
@@ -8,16 +8,16 @@
   },
   "plugins": [
     {
-      "name": "lorky",
-      "displayName": "Lorky",
+      "name": "cramloop",
+      "displayName": "Cramloop",
       "description": "Coursework-based tutoring for math and history: structured quizzes, mark schemes, and per-question feedback traced to the student's own study materials.",
       "version": "1.0.0",
       "source": "./",
       "author": {
         "name": "Henryk Karski"
       },
-      "homepage": "https://github.com/kkarski/Lorky",
-      "repository": "https://github.com/kkarski/Lorky",
+      "homepage": "https://github.com/kkarski/cramloop",
+      "repository": "https://github.com/kkarski/cramloop",
       "license": "MIT",
       "keywords": [
         "education",
