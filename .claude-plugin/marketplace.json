@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace-manifest.json",
+  "name": "lorky",
+  "description": "Coursework-based tutoring plugins for math and history revision.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Henryk Karski"
+  },
+  "plugins": [
+    {
+      "name": "lorky",
+      "displayName": "Lorky",
+      "description": "Coursework-based tutoring for math and history: structured quizzes, mark schemes, and per-question feedback traced to the student's own study materials.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Henryk Karski"
+      },
+      "homepage": "https://github.com/kkarski/Lorky",
+      "repository": "https://github.com/kkarski/Lorky",
+      "license": "MIT",
+      "keywords": [
+        "education",
+        "tutoring",
+        "math",
+        "history",
+        "quiz",
+        "exam-prep",
+        "coursework",
+        "revision"
+      ],
+      "category": "education",
+      "tags": [
+        "tutoring",
+        "math",
+        "history",
+        "quiz"
+      ]
+    }
+  ]
+}
