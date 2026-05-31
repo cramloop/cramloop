@@ -13,6 +13,16 @@ Claude Code plugin for coursework-based tutoring in **math** and **history**. Sk
 
 ### Local development
 
+Copy skills into `~/.claude/skills` (same pattern as [spectr](https://github.com/kkarski/spectr) `copy.sh`):
+
+```bash
+./copy.sh
+```
+
+Then invoke `/math-tutor` or `/history-tutor` in Claude Code. Re-run `./copy.sh` after skill changes.
+
+Alternatively, load the full plugin (namespaced commands):
+
 ```bash
 claude --plugin-dir /path/to/cramloop
 ```
@@ -65,6 +75,7 @@ Quiz sessions are written to `quizzes/` in the working project.
 
 ```
 cramloop/
+├── copy.sh                  # Install skills locally to ~/.claude/skills
 ├── .claude-plugin/
 │   ├── plugin.json          # Plugin manifest
 │   └── marketplace.json     # Team marketplace catalog
